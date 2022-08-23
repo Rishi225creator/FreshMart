@@ -1,0 +1,1099 @@
+
+    color:black;
+    margin:0px;
+    padding:0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height:50px;
+    width:100%;
+    font-size: 22px;
+}
+nav{
+    color:black;
+    position:relative;
+}
+.front{
+    height:650px;
+    width:100%;
+    background-image: url('images/first.jpg');
+    background-size: cover;
+}
+.brand{
+    font-weight: bold;
+    color:black;
+    padding:5px;
+    width:10%;
+    float: left;
+}
+.brand:hover{
+    font-size:25px;
+}
+a{
+    font-weight:bold;
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:rgba(15, 196, 65);
+    font-size: 25px;
+}
+.search{
+    color:rgba(15, 196, 65);
+    padding:5px;
+    width:30%;
+    height:45px;
+    float:left;
+}
+.search input{
+    border-radius: 5px;
+}
+.menu{
+    color:rgba(15, 196, 65);
+    text-decoration: inherit;
+    word-spacing: 30px;
+    padding:5px;
+    float:right;
+}
+.btn{
+    font-weight:bold;
+    border-radius: 15px;
+    background-color: white;
+    color:rgb(0, 0, 0);
+    font-size:15px;
+    width:100px;
+    height:30px;
+}
+.menu button:hover{
+    font-size:17px;
+    width:150px;
+}
+main{
+    color:rgb(0, 255, 34);
+}
+.startPage{
+    font-size:30px;
+    margin:150px 0px 0px 0px;
+    color:rgba(13, 223, 59, 0.733);
+    text-align: center;
+    position:relative;
+}
+#btnNext{
+    margin-left:130px;
+    margin-top:20px;
+}
+#btnNext button{
+    color:black;
+    background-color: white;
+    border-radius:60px;
+    font-size:22px;
+    font-weight:bold;
+    height:50px;
+    width:300px;
+}
+#btnNext button:hover{
+    background-color: green;
+    width:350px;
+}
+.front footer{
+    margin:250px 0px 0px 0px;
+    height:40px;
+    font-size:20px;
+    color:white;
+    background-color:green;
+    width:100%;
+}
+.front footer span{
+    float:right;
+    color:white;
+    font-size:20px;
+}
+
+/* Sign-Up */
+
+
+.sign-up{
+    margin:0px 300px 0px 400px;
+    padding:60px;
+}
+.sign-up h1{
+    color:black;
+    font-size:40px;
+}
+.sign-up form{
+    height:400px;
+    width:550px;
+    align-items: center;
+}
+.sign-up form table{
+    margin-left:80px;
+}
+.sign-up form table tr{
+    height:50px;
+}
+.sign-up form table tr td{
+    font-size:22px;
+    font-weight:bold;
+    height:35px;
+    width:500px;
+}
+.sign-up form table tr td input{
+    padding:10px;
+    border-radius:30px;
+    height:15px;
+    width:200px;
+}
+.sign-up form table tr td input[type="submit"]
+{
+	padding:2px;
+    width:230px;
+    height:40px;
+    color:white;
+    background-color: rgb(9, 150, 11);
+    font-size:16px;
+    border-radius:30px;
+}
+#user-created{
+	font-weight:bold;
+}
+fieldset{
+    border-radius:30px;
+    border-color:black;
+    border-style:double;
+}
+.sign-up #logo h1{
+    border-color:black;
+    border-radius: 30px;
+    font-weight:bold;
+    background-color: rgb(9, 190, 9);
+    width:550px;
+    font-size: 40px;
+    text-align: center;
+}
+.sign-up form table tr td button a:hover{
+    font-size:15px;
+}
+
+
+/* Sign In */
+
+.sign-in{
+    margin:0px 300px 0px 400px;
+    padding:80px;
+}
+.sign-in h1{
+    color:black;
+    font-size:40px;
+}
+.sign-in form{
+    height:250px;
+    width:350px;
+    align-items: center;
+}
+.sign-in form table{
+    margin-left:80px;
+}
+.sign-in form table tr{
+    height:50px
+}
+.sign-in form table tr td{
+    font-size:22px;
+    font-weight:bold;
+    height:35px;
+}
+.sign-in form table tr td input{
+    padding:10px;
+    border-radius:30px;
+    height:15px;
+    width:200px;
+}
+.sign-in form table tr td button{
+    width:100px;
+    color:white;
+    background-color: rgb(9, 150, 11);
+    font-size:16px;
+    border-radius:30px;
+}
+.sign-in form table tr td input[type="submit"]{
+	padding:2px;
+    width:230px;
+    height:40px;
+    color:white;
+    background-color: rgb(9, 150, 11);
+    font-size:16px;
+    border-radius:30px;
+}
+.sign-in #logo h1{
+    border-color:black;
+    border-radius: 30px;
+    font-weight:bold;
+    background-color: rgb(9, 190, 9);
+    width:480px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*   vegetable  */
+
+.main-vegeis{
+    width:100%;
+    height:1000px;
+}
+
+.main-vegeis header{
+    width:100%;
+    height:50px;
+    background-color: rgb(30, 219, 27);
+}
+.main-vegeis header a:hover{
+    color:white;
+}
+
+#vegetable-table{
+    align-items:center;
+    width:100%;
+    height:100px;
+    float:left;
+}
+#vegetable-table table{
+    width:100%;
+    height:100%;
+}
+#vegetable-table table tr td{
+    height:500px;
+    font-weight:bold;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    width:15%;
+}
+#vegetable-table table tr td input{
+    width:60px;
+    border-radius:10px;
+    padding:3px;
+    height:16px;
+    font-size:16px;
+    font-weight:bold;
+}
+#vegetable-table table tr td img{
+    width:100%;
+    border:solid;
+    border-color:rgb(39, 242, 3);
+    border-style:double;
+    height:300px;
+}
+#vegetable-table table tr td input[type="submit"]{
+    width:180px;
+    color:black;
+    border-radius:30px;
+    height:30px;
+}
+#vegetable-table table tr td button{
+    width:180px;
+    color:black;
+    border-radius:30px;
+    height:30px;
+}
+#vegetable-table table tr td button:hover{
+    width:180px;
+    font-weight: bold;
+    color:black;
+    background-color:lightgreen;
+}
+
+/*  contact us  */
+
+.contact{
+    float:left;
+    width:100%;
+    height:700px;
+    padding-top:10px;
+    background-image: url('https://media.istockphoto.com/photos/empty-wood-table-top-on-shelf-in-supermarket-blurred-background-picture-id1002918320?k=20&m=1002918320&s=612x612&w=0&h=8MxmsuKmf6HRkfkUjSe_VJvUhlzGxgZuwYL-weeDswA=');
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+}
+.contact legend{
+    font-size:18px;
+    color:#ffff;
+}
+.contact fieldset{
+    margin-top: 70px;
+    padding:30px;
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+    border-radius:30px;
+    align-items: center;
+    width:300px;
+    height:500px;
+}
+.contact fieldset input{
+    width:300px;
+    padding:10px;
+    height:20px;
+    border-radius:30px;
+}
+.contact fieldset textarea{
+    width:290px;
+    padding:15px;
+    border-radius:30px;
+}
+.contact fieldset button{
+    width:200px;
+    border-radius:30px;
+    font-size:18px;
+    height:30px;
+}
+.contact form td{
+    color:black;
+}
+#about-us-text{
+    width:80%;
+    height:500px;
+    margin-left:130px;
+}
+#about-us-text legend{
+    font-size: 30px;
+    color:green;
+    font-weight:bold;
+}
+
+/*   Forget Password   */
+
+.recovery{  
+	float:left;
+	align-items:left;
+	margin:100px 100px 80px 20px;
+}
+.recovery form input[type="text"]{ 
+	border-radius:30px;
+	padding:10px;
+	width:300px;
+	height:13px;
+}
+.recovery form input[type="submit"]{ 
+	border-radius:10px;
+	width:50px;
+	height:25px;
+}
+.recovery fieldset a:hover{
+	font-size:17px;
+}
+.sign-in form table tr td h4{
+	font-size:18px;
+}
+.sign-in form table tr td h4:hover{
+	font-size:20px;
+	
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    width:150px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+
+  #slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+	width: 33.3333333%;
+	height : 450px;
+	float: left;
+}
+.go-buy-fruit{
+    height:400px;
+    float:left;
+    width:100%;
+}
+#fruit-temp{
+    background-image: url('vegetable-template.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;;
+    float:left;
+    width:100%
+}
+#fruit-sale{
+    height:300px;
+    float:left;
+    width:100%;
+}
+.go-buy-vegetable{
+    height:700px;
+    float: left;
+    width:100%;
+}
+#vege-temp{
+    height:200px;
+    float: left;
+    width: 100%;
+}
+#vege-sale{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+#fruit-sale table tr td{
+    width:20%;
+}
+#fruit-sale table tr td a{
+    font-size:22px;
+    align-self: center;
+}
+#fruit-sale table tr td a:hover{
+    font-size:22px;
+}
+#sale{
+    justify-content: center;
+    font-size:20px;
+}
+#fruit-sale table tr td img{
+    border-style: solid;
+    border-color: green;
+    width:90%;
+    height:200px;
+}
+#fruit-sale table tr td img:hover{
+    width:95%;
+    height:225px;
+}
+#sale td{
+    align-content: center;
+    font-weight: bold;
+}
+#sale td center{
+    font-size: 25px;
+    color:red;
+}
+#explore-vegeis{
+    width:100%;
+    height:40px;
+    float:left;
+    background-color: #4CAF50;
+    text-align: center;
+    color:rgb(1, 134, 182);
+}
+#explore-vegeis a{
+    height:20px;
+    padding:3px;
+    font-size:30px;
+    justify-content: center;
+    color:#ffff;
+}
+#explore-vegeis a:hover{
+    height:30px;
+    font-size:30px;
+    width:50%;
+}
+#vegies-temp{
+    height:60px;
+    float:left;
+    width:100%;
+}
+
+/*   My Profile   */
+
+#my-profile{
+    width:100%;
+    float:left;
+    background-color:#f1f1f1;
+    height:800px;
+}
+#profile-name-picture{
+    width:100%;
+    background-color: #ffff;
+    height:100px;
+}
+#profile-address{
+    width:100%;
+    margin-top:20px;
+    float:left;
+    background-color: #ffff;
+    height:50px;
+}
+#form-profile{
+    padding:10px;
+    width:70%;
+    margin-top:50px;
+    margin-left:200px;
+    float:left;
+    background-color: #ffff;
+    height:700px;
+}
+#profile-edit{
+    padding:30px;
+    margin-left:70px;
+}
+#profile-edit table tr td h2{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+#profile-edit table tr td h2:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 3px solid rgb(10, 255, 247);
+}
+#profile-edit input[type=button]{
+    width:300px;
+    height:30px;
+    background-color: rgb(9, 225, 233);
+    color:#ffff;
+    font-size:22px;
+}
+#profile-edit button:hover{
+    background-color:grey;
+    color:black;
+}
+#profile-edit table tr td{
+    width:180px;
+    height:50px;
+}
+#profile-edit table tr td input{
+    font-size: 20px;
+    height:20px;
+    padding:5px;
+    width:300px;
+}
+#edit-table tr td{
+    width:500px;
+    height:100px;
+}
+#edit-table tr td select{
+    font-size:20px;
+    width:200px;
+    height:30px;
+}
+#edit-table tr td select option{
+    font-size:22px;
+}
+
+/*   view Hstory   */
+
+#my-history{
+    width:100%;
+    float:left;
+    background-color:#f1f1f1;
+    height:1200px;
+}
+#view-history{
+    padding:10px;
+    width:70%;
+    margin-top:50px;
+    margin-left:200px;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    background-color: #ffff;
+    height:1050px;
+}
+#history{
+    width:100%;
+    height:30px;
+    text-align: center;
+    background-color: #05f419;
+}
+#history h2{
+    font-size:22px;
+    color:white;
+}
+#view-history fieldset{
+    margin-top:40px;
+    padding:6px;
+    margin-left: 70px;
+    width:80%;
+    height:121px;
+}
+#view-history legend{
+    margin-top:4px;
+    color:#05f419;
+    font-size:22px;
+    align-items: center;
+    text-align: center;
+    width:min-content;
+    width:fit-content;
+}
+#view-history table{
+    size:40px;
+    align-items: center;
+    text-align: center;
+    margin-left:auto;
+}
+#view-history table tr{
+    height:30px;
+}
+#view-history table tr th{
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    font-size:22px;
+}
+#view-history table tr td{
+    width:300px;
+}
+
+/*   Billing   */
+
+#name-plate{
+    width:106%;
+    text-align: center;
+    background-color: rgb(0, 227, 212);
+    height:40px;
+}
+#billing{
+    padding:10px;
+    width:75%;
+    margin-top:50px;
+    margin-left:200px;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    height:1050px;
+}
+#bill-info{
+    height:150px;
+    padding:10px;
+    background-color: #ffff;
+    width:104%;
+    float:left;
+}
+#bill-info table{
+    margin-top: 10px;
+    align-items: center;
+    margin-left:10%;
+}
+#bill-info table tr{
+    height:10px;
+}
+#bill-info table tr td{
+    font-weight: bold;
+    font-size: 18px;
+    width:200px;
+}
+#bill-info table tr td input{
+    width:200px;
+    height:21px;
+}
+#items-info{
+    height:600px;
+    padding:30px;
+    margin-top:20%;
+    background-color: #ffff;
+    width:100%;
+}
+#items-info table{
+    margin-top: 20px;
+    border-color:black;
+    text-align: center;
+    margin-left:5%;
+}
+#items-info table tr{
+    height:30px;
+}
+#items-info table tr th{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#items-info table tr td{
+    font-size:18px;
+    width:200px;
+}
+#items-info table tr td a{
+    width:100px;
+    height:40px;
+}
+#items-info table tr td a:hover{
+    font-size:16px;
+    color:#1be211;
+}
+#items-info input[type=button]{
+    margin-left:65%;
+    margin-top:50px;
+    border-radius: 20px;
+    width:210px;
+    height:40px;
+    font-size: 22px;
+    background-color: rgb(15, 255, 243);
+}
+#items-info input[type=button]:hover{
+    background-color: red;
+    color:white;
+}
+
+/*   View Order   */
+#items-info tr td button{
+    width:100px;
+    height:25px;
+    background-color: #05f419;
+}
+
+/*   Change Password   */
+#change-password{
+    width:520px;
+    height:200px;
+    padding:10px;
+    float:left;
+    background-color: rgb(10, 241, 218);
+    margin:40px 120px 0px 420px;
+}
+#change-password table{
+    align-items: center;
+    margin:20px;
+    border: #05f419;
+    width:500px;
+    height:200px;
+}
+#change-password table tr td{
+    height:50px;
+}
+#change-password table tr td span{
+    font-size:18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#change-password table tr td input[type=text]{
+    width:300px;
+    padding:10px;
+    font-size:18px;
+    background-color: white;
+    height:10px;
+    border-radius: 30px;
+}
+#change-password table tr td button{
+    width:300px;
+    height:30px;
+    font-weight:bold;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    color:black;
+    border-color: rgb(10, 241, 218);
+}
+#change-password table tr td button:hover{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    width:320px;
+    height:33px;
+}
+#change-password table tr td input[type=button]{
+    width:200px;
+    font-size: 18px;
+    font-weight:bold;
+    height:30px;
+}
+
+
+/*      Admin Workspace      */
+#fruit-sale button{
+    width:250px;
+    font-weight:18px;
+    font-weight:bold;
+    height:30px;
+    background-color: #6dbf74;
+}
+#vegetable-table button{
+    margin-top:30px;
+    width:250px;
+    font-size:18px;
+    height:30px;
+}
+
+/*   Add Product    */
+#add-product{
+    height:450px;
+    margin:60px 0px 0px 0px;
+    width:100%;
+    background-color: #5be682;
+}
+#add-product button{
+    margin-top:180px;
+    width:500px;
+    border-radius:30px;
+    font-size:22px;
+    font-weight:bold;
+    height:50px;
+}
+#add-product button:hover{
+    background-color:#5be682;
+}
+#add-into-vegetable{
+    background-image: url('images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+    text-align: center;
+    float:left;
+    width:50%;
+}
+#add-into-fruit{
+    background-image: url('images/Strawbarrey.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+    text-align: center;
+    float:left;
+    width:50%;
+}
+
+/*   Add Product Description    */
+
+#add-product-title{
+    width:780px;
+    height:40px;
+    text-align:center;
+    padding:10px;
+    margin:50px 0px 0px 300px;
+    background-color:rgb(35, 250, 250);
+}
+#add-product-title h2{
+    font-size:30px;
+    font-weight:bold;
+}
+#add-product-details{
+    width:680px;
+    padding:60px;
+    margin:25px 0px 0px 300px;
+    height:330px;
+    background-color: rgb(35, 250, 250);
+}
+#add-product-details table{
+    margin-left:50px;
+    margin-top:5px;
+}
+#add-product-details table tr{
+    width:300px;
+    height:50px;
+}
+#add-product-details table tr td{
+    font-size:22px;
+    font-weight:bold;
+}
+#add-product-details table tr td select{
+    width:300px;
+    font-size:22px;
+    font-weight:bold;
+    height:40px;
+}
+#add-product-details table tr td option{
+    width:300px;
+    font-size:18px;
+    font-weight:bold;
+}
+#add-product-details table tr td input{
+    font-size:18px;
+    font-weight:bold;
+    width:300px;
+    height:35px;
+}
+
+/*    View Order    */
+#search-button{
+    margin:60px 0px 0px 250px;
+    font-size:22px;
+    font-weight:bold;
+    width:800px;
+    height:60px;
+}
+#search-button input{
+    font-size:22px;
+    width:500px;
+    font-weight:bold;
+    height:30px;
+}
+#cutomer-order{
+    width:800px;
+    margin-left:250px;
+    height:600px;
+}
+#cutomer-order table{
+    border:2px solid red;
+    text-align: center;
+    width:800px;
+}
+#cutomer-order table th{
+    border:1px solid red;
+    font-size:22px;
+    font-weight: bold;
+    color:rgb(57, 219, 16);
+}
+#cutomer-order table tr{
+    width:100%;
+}
+#cutomer-order table td{
+    font-size:22px;
+    width:500px;
+    height:50px;
+}
+
+/*    Sale History Details    */
+#full-details{
+    padding:30px;
+    width:900px;
+    background-color:white;
+    height:170px;
+}
+#full-details table{
+    width:600px;
+    font-weight:bold;
+    font-size:20px;
+}
+#full-details table tr td input{
+    width:300px;
+    font-size:18px;
+    height:25px;
+}
+
+/*   Admin View Fruit    */
+#admin-side-fruit{
+    width:1000px;
+    margin-top:50px;
+    margin:40px 0px 0px 150px;
+    height:1500px;
+}
+#admin-side-fruit table{
+    width:1000px;
+    margin-top:50px;
+    border:2px solid black;
+    margin-left:50px;
+    text-align:center;
+    font-size:22px;
+}
+#admin-side-fruit table tr td{
+    width:300px;
+    height:50px;
+}
+#admin-side-fruit table tr td button{
+    width:100%;
+    font-size:18px;
+    font-weight:bold;
+    height:100%;
+    background-color: rgb(19, 232, 204);
+}
+
+/*    Admin Home    */
+#admin-home-title{
+    width:530px;
+    padding:30px;
+    background-color: #badabc;
+    margin:10px 300px 0px 400px;
+    height:60px;
+}
+#admin-home{
+    height:400px;
+    margin:40px 0px 0px 400px;
+    width:600px;
+    background-color: #05f419;
+}
+#admin-home button{
+    width:600px;
+    font-size:22px;
+    color:black;
+    font-weight:bold;
+    background-color: #badabc;
+    height:80px;
+}
+#admin-home button:hover{
+    background-color: white;
+}
+/* Show Description */
+#show-desc{
+    width:96%;
+    margin:30px 0px 0px 0px;
+    float:left;
+    height:500px;
+    background-color: #b6c1a3;
+    font-weight:bold;
+}
+#show-desc table{
+    float:left;
+    margin:30px 0px 0px 200px;
+    width:100%;
+    font-size:20px;
+}
+#show-desc table tr{
+    margin-top:30px;
+    width:100%;
+}
+#show-desc table tr td{
+    height:50px;
+}
+#show-desc table tr td input[type=text]{
+    width:283px;
+    padding:5px;
+    font-size: 16px;
+    font-weight:bold;
+    height:30px;
+}
+#show-desc table tr td textarea{
+    padding:5px;
+    font-size: 16px;
+    font-weight:bold;
+}
